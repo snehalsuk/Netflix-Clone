@@ -16,10 +16,10 @@ public class DBConfig {
 @Value("jdbc:mysql://netflixtest.cl2sgnskcm6e.ap-south-1.rds.amazonaws.com")
 private  String jdbcUrl;
 
-    @Value("admin")
+    @Value("dbUsername")
     private String username;
 
-    @Value("snehal6857")
+    @Value("Password")
     private String password;
 
     @Bean(destroyMethod="close")
